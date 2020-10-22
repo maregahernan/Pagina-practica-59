@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/img6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+
+    height: 90%;
+    width: 30%;      
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;   
+    flex-direction: column; 
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+
+}
+
+.text{
+    
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    width: 100%;
+    
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+.form-control input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background: inherit;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+    
+}
+
+.c1 i {
+    padding-left: 3px;
+    font-size: 30px;
+}
+
+
+.forgot-password{
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.submit{
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    height: 30px;
+    border-radius: 3px;
+    background: inherit;
+    font-size: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.social-login{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-login label{
+    padding: 20px 0 20px 0 ;
+}
+
+.social-container{
+    width: 100%;    
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-container button{
+    background: inherit;
+    padding: 15px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .2s;
+    color: #fff;
+    border: 1px solid #ffffff;
+    
+}
+
+.social-container button:active{
+    border-radius: 50%;
+    
+}
+
+.social-container i {
+    font-size: 20px;
+}
+
+.social-container button:hover{
+    background: #fff;
+    font-weight: bold;
+    color: #000000;
+}
+
+.additional-action{
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+    .login-container{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .login-container{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .login-container{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .login-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width:400px){
+    .login-container{
+        width: 90%;
+    }
+}
